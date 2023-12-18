@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de Condiciones</title>
+</head>
+<body>
+    <script>   
+    /*
+    alert("Por favor ingresa dos números");
+    let valor1 = parseInt(prompt ('Ingresa un numero'));
+    let valor2 = parseInt(prompt ('Ingresa otro numero'));
+    
+    if (valor1 == valor2){
+        alert("Los dos numeros que ingresaste son iguales, felicidades.");
+    } 
+    else if (valor1 < valor2){
+        alert(`${valor1} es menor a ${valor2}. Por favor, vuelve a ingresar los números`);
+    }
+    else {
+        alert(`${valor2} es mayor a ${valor1}. Por favor, vuelve a ingresar los números`);
+    }
+    */
+
+    /*
+    alert("Por favor ingresa dos palabras iguales");
+    let palabra1 = prompt("Ingrese una palabra");
+    let palabra2 = prompt("Ingresa otra palabra");
+
+    if(palabra1 == palabra2) {
+        alert("Las palabras son iguales");
+    } 
+    else {
+        alert("Las palabras son diferentes");
+    }
+    */
+   //EJERCICIO
+const harina = 500; 
+const leche = 350; 
+const huevo = 2; 
+const mantequilla = 20;
+
+const harinaDisponible = 1000; 
+const lecheDisponible = 1000; 
+const huevosDisponibles = 3;
+const mantequillaDisponible = 15;
+
+const ingredientesSuficientes = harinaDisponible >= harina && lecheDisponible >= leche && huevosDisponibles >= huevo && mantequillaDisponible >= mantequilla;
+
+if (ingredientesSuficientes) {
+    console.log("Si hay suficientes");
+} 
+else {
+    console.log("Compra lo que haga falta, pls");
+}
+    </script>
+</body>
+</html>

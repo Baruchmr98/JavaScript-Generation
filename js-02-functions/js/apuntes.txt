@@ -1,0 +1,60 @@
+6 tipos de funciones.
+
+
+function 'x' () {
+    console.log();                           Función normal.
+    }        
+'x';
+
+
+function 'x' () {
+    return;                                  Función que retorna.
+    }               
+console.log('x');
+
+
+function 'x' ('parametros') {
+    return 'operaciones';                           Función que retorna, con parámetros.
+    }    
+let 'resultado' = 'x'('valores del parametro');
+console.log('resultado');
+
+
+const 'x' = ('parametros') => {
+    return 'operaciones';                        Función Arrow.
+}
+let 'resultado' = 'x'('valores del parametro');
+console.log('resultado');
+
+
+const 'x' = function () {
+    return 'valor';                          Función Anónima.
+}
+console.log('x'(Na));
+
+
+const functionB = function() {
+    console.log('valor1');
+}                                             Callback 
+const functionA = function(callback) {
+    callback();
+}
+functionA(functionB);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+CICLO FOR.
+for ('expIn'; 'expCond'; 'expAct') {
+    'Código a iterar'
+}
+Desde dónde inicia el ciclo; Hasta dónde llega; su dirección.
+
+RECORRER ARRAYS CON CICLO FOR.
+const 'x' = []
+for(let g = 0; g < 7; g++) {
+    console.log('x'[g])
+}
+
+CICLO WHILE
+let 'x' = 'valor'
+while('expCond') {
+    'Código'
+}

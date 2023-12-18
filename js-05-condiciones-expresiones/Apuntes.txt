@@ -1,0 +1,61 @@
+TIPOS DE OPERADORES
+
+Aritméticos.
+(+) SUMA; 
+(-) RESTA;
+(*) MULTIPLICACIÓN;
+(/) DIVISIÓN;
+(%) RESIDUO;
+(++) INCREMENTO; 
+(--) DECREMENTO;
+
+Asignación.
+(=) DESIGNA;
+
+Comparación.
+(==) IGUALDAD; valores
+(===) IGUALDAD ESTRICTA; tipos de datos y valores
+(!=) DESIGUALDAD;
+(!==) DESIGUALDAD ESTRICTA;
+(>) MAYOR QUÉ;
+(<) MENOR QUÉ;
+(>=) MAYOR O IGUAL QUÉ;
+(<=) MENOR O IGUAL QUÉ;
+
+Lógicos.
+(&&) AND;
+(||) OR;
+(!) NOT;
+
+Cadena.
+'.toLowerCase' a Minúsculas
+'.toUpperCase' a Mayúsculas
+'.trim' quita Espacios
+'.toString' Cambia Number a String
+'.concat' Concatena strings
+
+SIMBOLOS.
+'+', '-', '*', '/', '%', '++', '--', '=', '==', '===', '!=', '!==', '>', '<', '>=', '<=', '&&', '||', '!'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

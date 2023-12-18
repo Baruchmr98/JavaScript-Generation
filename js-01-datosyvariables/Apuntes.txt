@@ -1,0 +1,16 @@
+
+
+Inicializar una variable: var, let y const.
+
+'console.log' permite visualizar en la consola el código JS. Pueden vivir variables y strings.
+'console.warn()' muestra un mensaje de advertencia.
+'console.error()' muestra un mensaje de error.
+'console.table()
+'document.write()' para verlo directo en el viewport.
+'typeof()' para saber el tipo de dato que tenemos.
+
+TIPOS DE DATOS:
+1. String, number, booleans, null, undefined, 
+
+El código siempre tiene que retornar. 
+
