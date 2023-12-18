@@ -16,7 +16,7 @@ console.log('x');
 function 'x' ('parametros') {
     return 'operaciones';                           Función que retorna, con parámetros.
     }    
-let 'resultado' = 'x'('valores del parametro');
+'let resultado' = 'x'('valores del parametro');
 console.log('resultado');
 
 
