@@ -1,4 +1,9 @@
-console.log("Hola, CH35.")
+//Control de flujo
+/*
+Tomar decisiones basadas en condiciones especificas, esto produce un codigo tanto dinamico como adaptable
+Repetir acciones (estructuras de bucle) para iterar operaciones o procesar datos de una forma eficiente sin caer en la redaccion de codigo innecesario y repetitivo
+Facilitar el control de flujo de una operacion, brindandonos la oportunidad de ser especificos en indicar qe instrucciones ejecutar y en que orden
+*/
 
 //if-else
 let n = 8;
@@ -9,7 +14,7 @@ else{
     console.log(false);
 }
 
-//if-else-if
+//if-else-if. Se anidan varias veces una misma sentencia.
 let edad = 28;o
 if (edad < 18) {
     console.log("Eres menor de edad, retírate");
@@ -51,6 +56,11 @@ switch (dia) {
 }
 
 //operador terniario
+/*
+Es una expresión if-else más simple y legible. 
+Se usa principalmente para simplificar condiciones de una sola expresión.
+*/
+
 let verificacion = n > 20 ? "Si es mayor" : "No es mayor"
 console.log(verificacion);
 
