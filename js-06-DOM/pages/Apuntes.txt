@@ -1,0 +1,33 @@
+Leer y traer nodos del árbol del DOM.
+1.  'document.getElementById' Trae elementos por ID
+2.  'document.getElementsByClassName' Trae elementos por Class
+3.  'document.getElementsByTagName' Trae elementos por Etiquetas
+
+4.  '.innerText' Extrae el texto que vive dentro del elemento. Además, puede ocuparse para modificar el texto de un elemento desde el DOM
+5.  '.length' Devuelve la longitud de elementos de la clase 
+6.  'typeof' Muestra el tipo de objeto que sea.
+7.  '.style' Modifica el estilo de un elemento
+8.  '.textContent' 
+
+Métodos para llamar elementos mediante selectores de CSS; para procesos más específicos; siempre van a traer el primer elemento seleccionado.
+
+9.  'document.querySelector("")' //#, ., <>
+10.  'document.querySelectorAll("")'
+
+Métodos para cear y agregar elementos en el DOM.
+Crear nodos. 
+
+11. 'document.createElement("").
+12. 'document.createTextNodel("")
+
+Agregar nodos. Se llama al elemento padre y le pasamos la propiedad con la constante que guarda al nodo creado.
+13. '.appendChild(Elemento-Hijo)'
+
+    'parentElement.append(const)'
+    'parentElement.InsertBefore(const)'
+    'parentElement.insertAdjacentElement(const)'
+
+Otra forma de leer y modificar nodos.
+    'document.outerHTML (leer)'
+    'node.innerHTML' Escribir sobre el nodo.
+
