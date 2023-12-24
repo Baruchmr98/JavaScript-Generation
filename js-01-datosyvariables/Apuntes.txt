@@ -1,16 +1,42 @@
+INICIALIZAR UNA VARIABLE
+1.  'var'
+2.  'let' 
+3.  'const'
+
+4.  'console.log()' Permite visualizar en la consola el código JS. Pueden vivir variables y strings.
+5.  'console.warn()' Muestra un mensaje de advertencia.
+6.  'console.error()' muestra un mensaje de error.
+7.  'console.table()' 
+8.  'document.write()' Para verlo directo en el viewport.
+9.  'typeof()' Para saber el tipo de dato que tenemos.
+10. 'parseInt'
+11. 'parseFloat'
+
+MENSAJES EN EL VIEWPORT
+12. 'alert();
+13. 'prompt()' De preferencia debe almacenar los datos en una variable.
 
 
-Inicializar una variable: var, let y const.
+CONVERSIONES
 
-'console.log' permite visualizar en la consola el código JS. Pueden vivir variables y strings.
-'console.warn()' muestra un mensaje de advertencia.
-'console.error()' muestra un mensaje de error.
-'console.table()
-'document.write()' para verlo directo en el viewport.
-'typeof()' para saber el tipo de dato que tenemos.
 
 TIPOS DE DATOS:
-1. String, number, booleans, null, undefined, 
+1. String
+2. Number
+3. Booleans
+4. Null
+5. Undefined
 
-El código siempre tiene que retornar. 
+INTERPOLACIÓN DE CADENAS.
+1. Backticks ``
+2. Variables ${}
+3. Texto para strings */
 
+
+ARRAY Y OBJETOS
+1. "const 'nombre' = []" Array; se contabilizan mediante índices
+2. "const 'nombre' = {}" Objeto
+
+LONGITUD E ÍNDICE
+1. La longitud es el numero de elementos. 
+2. El indice corresponde a cada elemento a partir del 0.

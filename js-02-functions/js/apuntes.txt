@@ -1,41 +1,41 @@
 6 tipos de funciones.
 
-
-function 'x' () {
-    console.log();                           Función normal.
+-> Función normal.
+1. "function 'nombre' () {
+    console.log();                          
     }        
-'x';
+'nombre';"
 
-
-function 'x' () {
-    return;                                  Función que retorna.
+-> Función que retorna.
+2. "function 'nombre' () {
+    return;                                  
     }               
-console.log('x');
+console.log('nombre');"
 
-
-function 'x' ('parametros') {
-    return 'operaciones';                           Función que retorna, con parámetros.
+-> Función que retorna, con parámetros.
+3. "function 'nombre' (parámetros) {
+    return 'operaciones';                           
     }    
-'let resultado' = 'x'('valores del parametro');
-console.log('resultado');
+let 'resultado' = 'nombre'(valores del parametro);
+console.log('resultado');"
 
-
-const 'x' = ('parametros') => {
-    return 'operaciones';                        Función Arrow.
+-> Función Arrow.
+4. "const 'nombre' = (parámetros) => {
+    return 'operaciones';                        
 }
-let 'resultado' = 'x'('valores del parametro');
-console.log('resultado');
+let 'resultado' = 'nombre'(valores del parametro);
+console.log('resultado');"
 
-
-const 'x' = function () {
-    return 'valor';                          Función Anónima.
+-> Función Anónima.
+5. "const 'nombre' = function () {
+    return 'valor';                          
 }
-console.log('x'(Na));
+console.log('nombre'(Na));"
 
-
-const functionB = function() {
+-> Callback 
+6. "const functionB = function() {
     console.log('valor1');
-}                                             Callback 
+}                                             
 const functionA = function(callback) {
     callback();
 }

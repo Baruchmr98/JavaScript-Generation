@@ -8,6 +8,7 @@ Leer y traer nodos del árbol del DOM.
 6.  'typeof' Muestra el tipo de objeto que sea.
 7.  '.style' Modifica el estilo de un elemento
 8.  '.textContent' 
+9.  '.createTextNode' Agregar texto a un nodo.
 
 Métodos para llamar elementos mediante selectores de CSS; para procesos más específicos; siempre van a traer el primer elemento seleccionado.
 

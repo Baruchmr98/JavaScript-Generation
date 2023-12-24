@@ -1,0 +1,53 @@
+Asincronía.
+1.  'setTimeout(funcion, tiempo)'
+const 'nombre' = () => {
+    setTimeout(() => {
+        console.log("nombre");
+    }, mlseg)
+}
+
+FORMATO JSON. Es un formato de datos liviano y versátil que se utiliza para intercambiar datos entre un servidor y un cliente en aplicaciones web.
+
+5.  'JSON.parse()' No modifica el objeto JSON. Convierte un objeto/array JSON en uno JavaScript
+5.  'JSON.stringify()' No modifica el objeto/array JSON. Convierte un objeto/array JavaScript en uno JSON
+
+PROMESAS CON FETCH-API
+1.  'fetch()'
+2.  '.then('respuesta' => 'respuesta'.json())'
+3.  '.then('respuesta' => {
+    console.log('respuesta')
+})
+4.  '.catch(error => {
+    console.log("Ayuda!", error);
+})
+
+PROMESAS EN EVENTOS
+1.  Inicializar las variables.
+2.  Agregar el evento al elemento HTML
+3.  Realizar la solicitud HTTP con fetch 
+4.  Comenzar con las promesas 
+5.  La primer promesa casi siempre será asegurarse que los datos importados se conviertan a formato JSON
+6.  Guardar la respuesta (los datos importados) en la variable nulla inicializada desde un principio
+7.  Armar una función que manipule la información importada dentro de la variable nulla.
+8. Crear los elementos HTML y asignarlos en una variable.
+9.  Se incrusta la información importada de forma específica de acuerdo al elemento HTML en la variable que guarda el elemento HTML
+10. Agregar todos los elementos al elemento padre para poder manipularlos mediante el DOM o ¿CSS?.
+11. Agregar la función creada a la promesa para que se despliegue cuando se cumpla el evento.
+
+POST METHOD -----------------------**-----------------------
+1.  Iniciamos con fetch para realizar la solicitud HTTP;
+2.  Se crea el cuerpo de datos (objeto JS) que serán exportados; se tiene que especificar su conversión a cadenas de tipo JSON 
+3.  Se definen los headers
+4. Comienzan las promesas. 
+5.  Se instaura el '.catch'.
+
+PROGRAMACIÓN ASÍNCRONA -------------------------**--------------------------
+
+LOCAL STORAGE. Nos permite crear, modificar, eliminar, guardar objetos de JavaScript de manera local.
+1.  'localStorage.setItem()' Almacena el objeto en el localStorage
+2.  'localStorage.setItem()' Trae de vuelta el objeto almacenado.
+
+
+
+
+

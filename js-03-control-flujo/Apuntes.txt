@@ -1,6 +1,6 @@
-Estructura if-else-if.
+->Estructura if-else-if.
 //Casi siempre se declara una variable gloibal para trabajar con ella.
-'let x'
+1. "let 'nombre'
 if (condición) {
     ¿console.log()?
 }
@@ -9,11 +9,11 @@ else if (condición) {
 }
 else{
     ¿console.log()?
-}
+}"
 
 -> Sentencia switch.
-//Casi siempre se declara una variable gloibal para trabajar con ella.
-'let x'
+//Casi siempre se declara una variable global para trabajar con ella.
+2. "let'nombre'
 switch ('x') {
     case '' :
     ¿console.log("string");
@@ -22,12 +22,13 @@ switch ('x') {
     default:
     ¿console.log("string");
     break; 
-    }
+}"
 //Para indicar que la ejecución de las sentencias debe cortarse cuando se cumpla, se coloca 'break;'.
-//Cuando terminemos de establecer los casos que necesitemos, debemos colocar el valor 'default:'. Nos permite establecer un valor por defecto, para los casos en que el valor asignado no empate con los de ninguno de los casos del bloque de código.
+
+//Cuando terminemos de establecer los casos que necesitemos, debemos colocar el valor 'default:'. Nos permite establecer un valor por defecto para los casos en que el valor asignado no empate con los de ninguno de los casos del bloque de código.
 
 -> Operador terniario.
-'let x' = (condicion) ? 'valor1|true' : 'valor2|false'
+let 'nombre' = (condicion) ? 'valor1|true' : 'valor2|false'
 //El valor de la izquierda representa un valor falso y, el de la derecha, uno verdadero.
 
 

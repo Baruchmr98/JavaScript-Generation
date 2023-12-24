@@ -7,7 +7,7 @@ const numeros = [
     5
 ];
 console.log(numeros);
-
+/*
 const springs = [
     "tacos", 
     "baguets", 
@@ -15,6 +15,7 @@ const springs = [
     "carnita asada"
 ];
 console.log(springs);
+*/
 
 const mixto = [
     "pluma",
@@ -38,8 +39,8 @@ console.log(lista);
 const frutas = new Array("manzana", "pera", "aguacate", "papaya");
 console.log(frutas.length); //longitud del array
 console.log(frutas[2]); //Imprimir un valor de acuerdo a su posición
-springs[2] = "lácteo";
-console.log(springs[2]);
+//springs[2] = "lácteo";
+//console.log(springs[2]);
 
 //Array de arrays. 
 
@@ -62,14 +63,20 @@ Unshift
 */
 
 const numerosPares = [2, 4, 6, 8, 10, 12, 14];
+const springs = [
+    "tacos", 
+    "baguets", 
+    "crema", 
+    "carnita asada"
+];
 
 //Shift
-
+console.log(numerosPares.length)
 console.log(numerosPares.shift());
 console.log(numerosPares);
 
 //Unshift
-
+console.log(numerosPares.length)
 console.log(numerosPares.unshift(30));
 console.log(numerosPares);
 
@@ -81,7 +88,6 @@ Pop
 */
 
 //Pop
-
 console.log(numerosPares.pop());
 console.log(numerosPares);
 
@@ -91,16 +97,29 @@ console.log(numerosPares.push(20))
 console.log(numerosPares);
 
 //Reverse
-
 console.log(numerosPares.reverse());
 
 //Sort
+let copiaSort = numerosPares.slice().sort(function(a, b) {
+    return a-b;
+});
+console.log(copiaSort)
 
 //Foreach
+const arrayPrueba = [];
+numerosPares.forEach(function(elemento){
+    //let CelciusToFahrenheit = elemento * (9/5) +32;
+    arrayPrueba.push(elemento * (9/5) +32);
+});
+console.log(arrayPrueba);
 
 //Slice
+let copiaNumPares = numerosPares.slice();
+console.log(copiaNumPares);
 
 //Splice
+console.log(numerosPares.splice());
+
 
 
 

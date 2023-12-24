@@ -1,5 +1,37 @@
 Matrices / Arrays
-const/let/var 'x' = [valores]
+1.  "const/let/var 'Nombre' = [valores]"
+2.  "const ['La posición del valor requerido'] = 'valor'" Permite renombrar o agregar un valor al array en la posición indicada.
+3.  "const ['La posición del valor'] ['La posición del valor']" Referencia un valor contenido en otro valor que está contenido dentro de la variable llamada.
+4.  "`Sentencia mixta ${} con valores strings y ${} numericos`"
 
-//'x'[posición del indice] = 'valor' permite renombrar o agregar un valor al array en la posición indicada.
-// 
+Otra forma de crear arrays
+
+5.  "const 'Nombre' = new Array('valores');"  
+6.  '.length' Refleja la longitud del Array.
+7.  EJEMPLO. 'console.log(const ['valor'])' Se utiliza para mostrar en consola un valor específico de un objeto de acuerdo a su posición.
+
+Métodos de cola
+
+FIFO
+8.  '.shift()' Elimina los primeros valores.
+        Los valores eliminados pueden ser almacenados en otra variable asignándoselos.
+9.  '.unshift()' Agrega valores al principio. 
+
+Método de pila
+
+LIFO
+10.  '.pop()' Es el contrario de '.shift'. Elimina los últimos valores.
+11.  '.push()' Agrega valores al final.
+
+REORDENAMIENTO
+12.  '.reverse()' Modifica el arrray original. Invierte el orden del Array.
+13.  '.sort()' Modifica el arreglo original| 'function(a,b){return a-b;}' Ordena númericamente los elementos de menor a mayor en un array.
+
+MODIFICACIÓN
+14.  '.forEach(function(elemento, indice, arreglo))' Itera cada valor del array. Aplica una función proporcionada una vez a cada valor del array. No crea ni modifica un array.
+
+15.  '.slice(inicio, fin)' Crea una copia superficial de una porción del arreglo original. Este si lanza un nuevo arreglo.
+
+16.  '.Splice(inicio, cantidad, elemento1,..., elementoN)' Mofidica el arreglo original. Agrega o elimina valores desde una posición específica en un array.
+
+
