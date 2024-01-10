@@ -1,0 +1,226 @@
+Last login: Sun Dec 24 17:13:45 on ttys005
+baruchmr@MacBook-Air-de-Baruch ~ % npm install
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/baruchmr/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/baruchmr/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in: /Users/baruchmr/.npm/_logs/2024-01-08T16_34_28_439Z-debug-0.log
+baruchmr@MacBook-Air-de-Baruch ~ % npm install --save-dev jest
+npm ERR! code EEXIST
+npm ERR! syscall mkdir
+npm ERR! path /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! errno EEXIST
+npm ERR! Invalid response body while trying to fetch https://registry.npmjs.org/@jest%2fconsole: EACCES: permission denied, mkdir '/Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc'
+npm ERR! File exists: /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: /Users/baruchmr/.npm/_logs/2024-01-08T16_38_44_295Z-debug-0.log
+baruchmr@MacBook-Air-de-Baruch ~ % npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (baruchmr) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/baruchmr/package.json:
+
+{
+  "name": "baruchmr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+baruchmr@MacBook-Air-de-Baruch ~ % npm init -y
+Wrote to /Users/baruchmr/package.json:
+
+{
+  "name": "baruchmr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
+
+
+baruchmr@MacBook-Air-de-Baruch ~ % ls
+Desktop			Library			Pictures		package.json
+Documents		Movies			Public
+Downloads		Music			package-lock.json
+baruchmr@MacBook-Air-de-Baruch ~ % cd desktop
+baruchmr@MacBook-Air-de-Baruch desktop % cd javascript
+baruchmr@MacBook-Air-de-Baruch javascript % ls
+Captura de pantalla 2023-12-07 a la(s) 13.39.08.png
+Captura de pantalla 2023-12-08 a la(s) 1.25.44.png
+Captura de pantalla 2023-12-11 a la(s) 15.45.45.png
+Captura de pantalla 2023-12-11 a la(s) 15.46.29.png
+Captura de pantalla 2023-12-11 a la(s) 15.47.34.png
+Captura de pantalla 2023-12-11 a la(s) 15.49.54.png
+Captura de pantalla 2023-12-11 a la(s) 15.54.27.png
+Captura de pantalla 2023-12-11 a la(s) 15.55.37.png
+Captura de pantalla 2023-12-11 a la(s) 17.08.11.png
+Captura de pantalla 2023-12-12 a la(s) 10.52.54.png
+Captura de pantalla 2023-12-12 a la(s) 10.59.53.png
+Captura de pantalla 2023-12-12 a la(s) 11.31.13.png
+Captura de pantalla 2023-12-12 a la(s) 11.39.00.png
+Captura de pantalla 2023-12-12 a la(s) 11.39.49.png
+Captura de pantalla 2023-12-13 a la(s) 12.08.13.png
+Captura de pantalla 2023-12-13 a la(s) 12.09.51.png
+Captura de pantalla 2023-12-13 a la(s) 12.11.51.png
+Captura de pantalla 2023-12-13 a la(s) 12.23.56.png
+Captura de pantalla 2023-12-13 a la(s) 14.14.28.png
+Captura de pantalla 2023-12-13 a la(s) 15.37.09.png
+Captura de pantalla 2023-12-13 a la(s) 15.39.58.png
+Captura de pantalla 2023-12-14 a la(s) 11.48.44.png
+Captura de pantalla 2023-12-14 a la(s) 12.18.30.png
+Captura de pantalla 2023-12-14 a la(s) 12.21.05.png
+Captura de pantalla 2023-12-14 a la(s) 12.30.56.png
+Captura de pantalla 2023-12-14 a la(s) 12.50.58.png
+Captura de pantalla 2023-12-14 a la(s) 12.53.05.png
+js-01-datosyvariables
+js-02-functions
+js-03-control-flujo
+js-04-matricesybucles
+js-05-condiciones-expresiones
+js-06-DOM
+js-07-API
+js-08-POO
+js-09-npm
+js-10-pruebasUnitarias
+baruchmr@MacBook-Air-de-Baruch javascript % cd js-10-pruebasUnitarias
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % ls
+Capturas de pantalla	index.js
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % npm init 
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help init` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (js-10-pruebasunitarias) 
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: 
+license: (ISC) 
+About to write to /Users/baruchmr/Desktop/JavaScript/js-10-pruebasUnitarias/package.json:
+
+{
+  "name": "js-10-pruebasunitarias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes) 
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % npm init -y
+Wrote to /Users/baruchmr/Desktop/JavaScript/js-10-pruebasUnitarias/package.json:
+
+{
+  "name": "js-10-pruebasunitarias",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}
+
+
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % npm init -y
+Wrote to /Users/baruchmr/Desktop/JavaScript/js-10-pruebasUnitarias/package.json:
+
+{
+  "name": "js-10-pruebasunitarias",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
+
+
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % npm install --save-dev jest
+npm ERR! code EEXIST
+npm ERR! syscall mkdir
+npm ERR! path /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! errno EEXIST
+npm ERR! Invalid response body while trying to fetch https://registry.npmjs.org/@jest%2fconsole: EACCES: permission denied, mkdir '/Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc'
+npm ERR! File exists: /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: /Users/baruchmr/.npm/_logs/2024-01-08T16_51_44_200Z-debug-0.log
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % npm install --save--dev jest
+npm ERR! code EEXIST
+npm ERR! syscall mkdir
+npm ERR! path /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! errno EEXIST
+npm ERR! Invalid response body while trying to fetch https://registry.npmjs.org/@jest%2fconsole: EACCES: permission denied, mkdir '/Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc'
+npm ERR! File exists: /Users/baruchmr/.npm/_cacache/content-v2/sha512/c7/fc
+npm ERR! Remove the existing file and try again, or run npm
+npm ERR! with --force to overwrite files recklessly.
+
+npm ERR! A complete log of this run can be found in: /Users/baruchmr/.npm/_logs/2024-01-08T16_53_53_202Z-debug-0.log
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % --force
+zsh: command not found: --force
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % sudo npm install --save--dev jest
+Password:
+
+added 291 packages, and audited 292 packages in 10s
+
+32 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+baruchmr@MacBook-Air-de-Baruch js-10-pruebasUnitarias % 
